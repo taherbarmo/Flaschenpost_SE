@@ -1,0 +1,24 @@
+<!-- Detail View -->
+
+          <div class="col-12" >
+              <div class="products-inner-container">
+                <div *ngIf="viewType === 'detail'" class="products-inner-container w-100 justify-center">
+                  <app-product-detail-view
+                    *ngFor="let product of products"
+                    [product]="product"
+                    class="w-75"
+                    id="product-detail"
+                  ></app-product-detail-view>
+                </div>
+              </div>
+            </div>
+
+
+
+<!-- Bottle View -->
+<div *ngIf="viewType === 'bottle'" class="bottle-view">
+  <app-product-bottle-view
+    *ngFor="let product of bottleViewData"
+    [product]="product"
+  ></app-product-bottle-view>
+</div>

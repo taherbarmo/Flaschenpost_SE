@@ -1,0 +1,12 @@
+.product-detail-card{
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: -1px 0px 1px 2px #f1f1f1;
+  padding: 10px;
+}
+
+.product-img{
+  height: 250px;
+}

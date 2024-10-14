@@ -1,0 +1,42 @@
+# .NET Core
+bin/
+obj/
+*.db
+*.db-journal
+*.pdb
+*.user
+*.rsuser
+*.suo
+.vscode/
+.idea/
+.DS_Store
+**/logs/
+*.log
+.env
+
+# Rider
+.idea
+.idea/*
+*.iml
+*.ipr
+*.iws
+
+# Angular
+node_modules/
+dist/
+coverage/
+.angular/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+npm-debug.log
+
+# Ignore JetBrains related files
+.idea/
+*.sln.docstates
+_ReSharper.Caches/
+
+# Ignore temporary files
+*.swp
+*.swo

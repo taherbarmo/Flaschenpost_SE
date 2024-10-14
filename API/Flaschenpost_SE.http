@@ -1,0 +1,6 @@
+@Flaschenpost_SE_HostAddress = http://localhost:5200
+
+GET {{Flaschenpost_SE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
